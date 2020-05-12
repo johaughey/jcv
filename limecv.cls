@@ -222,15 +222,15 @@
 %% \pagenumbering{gobble}
 \pagestyle{empty}
 \newlength\cvColSep
-\setlength\cvColSep{1cm} % 2 times column separation!
+\setlength\cvColSep{0.8cm} % 2 times column separation!
 \newlength\cvNodeSep
 \setlength\cvNodeSep{0.3cm}
 \newlength\cvTimeDotDiameter
 \setlength\cvTimeDotDiameter{3pt}
 \newlength\cvMargin
-\setlength\cvMargin{0.5cm}
+\setlength\cvMargin{0.7cm}
 \newlength\cvSideWidth
-\setlength\cvSideWidth{0.24\paperwidth-\cvMargin}
+\setlength\cvSideWidth{0.25\paperwidth-\cvMargin}
 \newlength\cvMainWidth
 \setlength\cvMainWidth{\paperwidth-4\cvMargin-\cvSideWidth}
 \newlength\cvTimeDotSep
